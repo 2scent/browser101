@@ -1,0 +1,43 @@
+body {
+  background-color: skyblue;
+}
+
+main {
+  margin: 40px auto;
+  width: 360px;
+  height: 600px;
+  background-color: plum;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+}
+
+section {
+  flex: 1;
+  background-color: whitesmoke;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+
+.input-item {
+  border: 0;
+  padding: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
